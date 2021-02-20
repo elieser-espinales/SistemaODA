@@ -15,7 +15,7 @@ class Home extends Page {
      * @param Extended $Extended
      */
     public function __construct(Extended $Extended = NULL) {
-        parent::__construct($Extended, "Home");
+        parent::__construct($Extended, "Home", 'pages/home.twig');
     }
 
     public function initVars() {
